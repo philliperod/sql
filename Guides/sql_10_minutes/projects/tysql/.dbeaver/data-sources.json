@@ -31,7 +31,50 @@
 					"postgresql.dd.tag.string": "false"
 				},
 				"auth-model": "native"
-			}
+			},
+			"filters": []
+		},
+		"postgres-jdbc-186f33d6101-46f7d47c471150df": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "tysql",
+			"save-password": true,
+			"show-system-objects": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "tysql",
+				"url": "jdbc:postgresql://localhost:5432/tysql",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20",
+					"loginTimeout": "20",
+					"escapeSyntaxCallMode": "callIfNoReturn"
+				},
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"show-database-statistics": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"read-keys-with-columns": "false",
+					"@dbeaver-use-prepared-statements-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			},
+			"filters": [
+				{
+					"id": "tysql",
+					"type": "org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema",
+					"enabled": true,
+					"include": [
+						"public"
+					]
+				}
+			]
 		}
 	},
 	"connection-types": {
