@@ -31,8 +31,7 @@
 					"postgresql.dd.tag.string": "false"
 				},
 				"auth-model": "native"
-			},
-			"filters": []
+			}
 		},
 		"postgres-jdbc-186f33d6101-46f7d47c471150df": {
 			"provider": "postgresql",

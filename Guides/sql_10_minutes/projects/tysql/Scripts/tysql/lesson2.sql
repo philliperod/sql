@@ -50,7 +50,7 @@ from products p
 
 -- 1. Write a query to retrieve all customer IDs (cust_id) from the customers table.
 
-select * from customers c;
+select cust_id from customers c;
 
 -- 2. The orderitems table contains every item ordered (some ordered multiple times).
 --    Write a query to retrieve a list of products (prod_id) ordered (not every order, just a unique list of products).
