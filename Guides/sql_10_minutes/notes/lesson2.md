@@ -98,7 +98,7 @@
 ![](../img/lesson2_9.png)
 <br>
 
-### Challenges
+### **Challenges**
 
 ![](../img/lesson2_10.png)
 
